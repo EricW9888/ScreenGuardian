@@ -1,4 +1,4 @@
-import sys, cv2, dlib, time, os, webbrowser, random, math
+import sys, cv2, time, os, webbrowser, random, math, dlib #DLIB needs MS Visual Studio in order to use it
 import numpy as np
 import tkinter as tk
 from matplotlib import pyplot as plt
