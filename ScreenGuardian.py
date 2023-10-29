@@ -25,11 +25,11 @@ class ScreenGuardian(QMainWindow):
         self.cap.set(cv2.CAP_PROP_FPS, frame_rate)
 
         #Load images
-        self.stats_bg_path = "data\light_info_bg.png"
+        self.stats_bg_path = "data\light_info_bg.png" #Replace "data\" with the path to the image on your computer ex."C:/Users/.../data/light_info_bg.png"
         self.stats_bg = cv2.imread(self.stats_bg_path)
         self.stats_bg = cv2.resize(self.stats_bg, (600, 390))
 
-        self.settings_bg_path = "data\light_settings_bg.png"
+        self.settings_bg_path = "data\light_settings_bg.png" #Same for all other .png files as in line 28
         self.settings_bg = cv2.imread(self.settings_bg_path)
         self.settings_bg = cv2.resize(self.settings_bg, (640, 370))
 
