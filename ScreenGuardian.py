@@ -2,6 +2,7 @@
 other modules, libraries, DLLs, and packages need to be installed with the "pip" command
 Replace all occurrences of "data\" with the path to the image on your computer ex."C:/Users/.../data/light_info_bg.png" before running
 Also, replace "stats\..." with the path to the "stats" folder on your computer'''
+
 import sys, cv2, time, os, webbrowser, random, math, dlib 
 import numpy as np
 import tkinter as tk
