@@ -1,6 +1,6 @@
 '''DLIB needs MS Visual Studio in order to use it
 other modules, libraries, DLLs, and packages need to be installed with the "pip" command
-Replace all occurrences of "data\" with the path to the image on your computer ex."C:/Users/.../data/light_info_bg.png" before running
+Replace all occurrences of "data\" with the path to the images on your computer ex."C:/Users/.../data/light_info_bg.png" before running
 Also, replace "stats\..." with the path to the "stats" folder on your computer'''
 
 import sys, cv2, time, os, webbrowser, random, math, dlib 
