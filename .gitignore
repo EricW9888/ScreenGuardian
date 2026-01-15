@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Local runtime/output
+/data/
+/stats/
